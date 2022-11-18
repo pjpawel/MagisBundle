@@ -1,0 +1,32 @@
+{
+  "name": "pjpawel/magis-bundle",
+  "type": "symfony-bundle",
+  "description": "The Symfony bundle to PHP templates",
+  "keywords": [
+    "bundle",
+    "symfony"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paweł Podgórski",
+      "email": "pawel.jan.podgorski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "symfony/framework-bundle": "^6.1",
+    "pjpawel/magis": "0.*"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": { "pjpawel\\Magis\\MagisBundle\\": "src" }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests"
+    }
+  }
+}
