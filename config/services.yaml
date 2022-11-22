@@ -3,9 +3,9 @@ parameters:
 
 services:
   pjpawel\Magis\ViewDispatcherService:
-    #arguments: []
+    arguments: ['direct', '', []]
     autowire: true
 
-  magis:
+  magis.view:
     alias: pjpawel\Magis\ViewDispatcherService
     public: true
