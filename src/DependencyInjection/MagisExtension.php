@@ -20,7 +20,6 @@ class MagisExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        //$definition = $container->getDefinition('magis');
         $definition = $container->getDefinition(ViewDispatcherService::class);
         $definition->setArgument(0, $config['default_view_mode']);
         $definition->setArgument(1, $config['template_path']);

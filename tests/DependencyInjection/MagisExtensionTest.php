@@ -14,7 +14,7 @@ class MagisExtensionTest extends TestCase
     {
         $config = [
             'magis' => [
-                'template_path' => __DIR__ . '/../templates',
+                'template_path' => __DIR__ . '/../../templates',
                 'default_view_mode' => 'direct',
                 //'services' => []
             ]
@@ -25,7 +25,7 @@ class MagisExtensionTest extends TestCase
         $extension->load($config, $container);
         $container->compile();
 
-        $viewDispatcherClass = $container->get('magis');
+        $viewDispatcherClass = $container->get('magis.view');
         $this->assertInstanceOf(ViewDispatcherService::class, $viewDispatcherClass);
         $this->assertEquals(
             ViewDispatcherService::VIEW_MODE[$config['magis']['default_view_mode']],
