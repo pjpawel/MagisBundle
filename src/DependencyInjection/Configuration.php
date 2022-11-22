@@ -8,30 +8,14 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 class Configuration implements ConfigurationInterface
 {
 
-    private string $projectDir;
-
-    public function __construct(string $projectDir)
-    {
-        $this->projectDir = $projectDir;
-    }
-
     public function getConfigTreeBuilder(): TreeBuilder
     {
         $treeBuilder = new TreeBuilder('magis');
-
-        $treeBuilder->getRootNode()
-            ->children()
-            ->scalarNode('default_view_mode')->defaultValue('direct')->isRequired()->end()
-            ->end()
-        ;
-        $treeBuilder->getRootNode()
-            ->children()
-                ->scalarNode('template_path')->defaultValue($this->projectDir . '/templates')->isRequired()->end()
-            ->end()
-        ;
         $treeBuilder->getRootNode()
             ->fixXmlConfig('service')
             ->children()
+                ->scalarNode('template_path')->defaultValue('%kernel.project_dir%/templates')->isRequired()->end()
+                ->scalarNode('default_view_mode')->defaultValue('direct')->isRequired()->end()
                 ->arrayNode('services')
                     ->arrayPrototype()
                         ->children()

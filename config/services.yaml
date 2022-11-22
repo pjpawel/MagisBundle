@@ -1,0 +1,11 @@
+parameters:
+  # nothing
+
+services:
+  pjpawel\Magis\ViewDispatcherService:
+    #arguments: []
+    autowire: true
+
+  magis:
+    alias: pjpawel\Magis\ViewDispatcherService
+    public: true

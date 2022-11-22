@@ -2,7 +2,7 @@ magis:
   default_view_mode: direct
   # This option will be available in future
 
-  #template_path: '%kernel.project_dir%/templates'
+  template_path: '%kernel.project_dir%/templates'
   # template directory
   # default: '%kernel.project_dir%/templates'
 
