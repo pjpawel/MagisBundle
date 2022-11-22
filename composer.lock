@@ -4,8 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb0155bf7a6b1395d0e3d7e9398efb97",
+    "content-hash": "62b2aadbab8dc649da33abae71f057f6",
     "packages": [
+        {
+            "name": "pjpawel/magis",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pjpawel/Magis.git",
+                "reference": "109cb4eef0f60392aefb2fcf7be537e942395c32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pjpawel/Magis/zipball/109cb4eef0f60392aefb2fcf7be537e942395c32",
+                "reference": "109cb4eef0f60392aefb2fcf7be537e942395c32",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "9.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pjpawel\\Magis\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paweł Podgórski",
+                    "email": "pawel.jan.podgorski@gmail.com"
+                }
+            ],
+            "description": "PHP templates engine",
+            "keywords": [
+                "templates"
+            ],
+            "support": {
+                "issues": "https://github.com/pjpawel/Magis/issues",
+                "source": "https://github.com/pjpawel/Magis/tree/v0.1.0"
+            },
+            "time": "2022-11-20T19:16:59+00:00"
+        },
         {
             "name": "psr/cache",
             "version": "3.0.0",
