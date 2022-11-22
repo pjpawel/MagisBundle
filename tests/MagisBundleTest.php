@@ -3,7 +3,7 @@
 namespace pjpawel\Magis\MagisBundle\Test;
 
 use PHPUnit\Framework\TestCase;
-use pjpawel\Magis\MagisBundle\DependencyInjection\MagisBundleExtension;
+use pjpawel\Magis\MagisBundle\DependencyInjection\MagisExtension;
 use pjpawel\Magis\ViewDispatcherService;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
@@ -21,7 +21,7 @@ class MagisBundleTest extends TestCase
         ];
 
         $container = new ContainerBuilder();
-        $extension = new MagisBundleExtension();
+        $extension = new MagisExtension();
         $extension->load($config, $container);
         $container->compile();
 
