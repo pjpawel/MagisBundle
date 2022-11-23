@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "pjpawel/magis",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pjpawel/Magis.git",
-                "reference": "109cb4eef0f60392aefb2fcf7be537e942395c32"
+                "reference": "682d091e8df2d79cf0d88ac7a0593bfb28e82c2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pjpawel/Magis/zipball/109cb4eef0f60392aefb2fcf7be537e942395c32",
-                "reference": "109cb4eef0f60392aefb2fcf7be537e942395c32",
+                "url": "https://api.github.com/repos/pjpawel/Magis/zipball/682d091e8df2d79cf0d88ac7a0593bfb28e82c2d",
+                "reference": "682d091e8df2d79cf0d88ac7a0593bfb28e82c2d",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "Apache-2.0"
             ],
             "authors": [
                 {
@@ -48,9 +48,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pjpawel/Magis/issues",
-                "source": "https://github.com/pjpawel/Magis/tree/v0.1.0"
+                "source": "https://github.com/pjpawel/Magis/tree/v0.1.1"
             },
-            "time": "2022-11-20T19:16:59+00:00"
+            "time": "2022-11-23T14:23:43+00:00"
         },
         {
             "name": "psr/cache",
