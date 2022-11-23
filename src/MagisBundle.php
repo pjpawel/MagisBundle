@@ -2,18 +2,16 @@
 
 namespace pjpawel\Magis\MagisBundle;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
-use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class MagisBundle extends AbstractBundle
+class MagisBundle extends Bundle
 {
 
 
-    public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
+    /*public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
     {
         $container->import(__DIR__ . '/../config/services.yaml');
-    }
+    }*/
 
     /*public function build(ContainerBuilder $container)
     {
