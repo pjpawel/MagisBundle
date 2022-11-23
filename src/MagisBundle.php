@@ -2,9 +2,7 @@
 
 namespace pjpawel\Magis\MagisBundle;
 
-use pjpawel\Magis\MagisBundle\DependencyInjection\MagisExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
