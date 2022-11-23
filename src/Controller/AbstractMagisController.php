@@ -6,6 +6,9 @@ use pjpawel\Magis\ViewDispatcherService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
+/**
+ * @author Paweł Podgórski <pawel.jan.podgorski@gmail.com>
+ */
 class AbstractMagisController extends AbstractController
 {
 

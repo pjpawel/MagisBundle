@@ -8,6 +8,9 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
+/**
+ * @author Paweł Podgórski <pawel.jan.podgorski@gmail.com>
+ */
 class MagisExtension extends Extension
 {
 

@@ -5,6 +5,9 @@ namespace pjpawel\Magis\MagisBundle\DependencyInjection;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
+/**
+ * @author Paweł Podgórski <pawel.jan.podgorski@gmail.com>
+ */
 class Configuration implements ConfigurationInterface
 {
 
