@@ -29,7 +29,7 @@ class MagisExtensionTest extends TestCase
         $this->assertInstanceOf(ViewDispatcherService::class, $viewDispatcherClass);
         $this->assertEquals(
             ViewDispatcherService::VIEW_MODE[$config['magis']['default_view_mode']],
-            $viewDispatcherClass->getDefaultViewMode());
+            $viewDispatcherClass->getDefaultViewClass());
 
     }
 
