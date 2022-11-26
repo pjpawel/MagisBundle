@@ -1,0 +1,3 @@
+App -> $this->container->get('twig.app_variable')
+
+Assets -> $this->container->get('assets.packages')
