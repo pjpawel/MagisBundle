@@ -1,6 +1,8 @@
 # MagisBundle
 
-*Symfony bundle for php templates rendering*
+### *Symfony bundle for php templates rendering*
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/pjpawel/magis-bundle.svg?style=flat-square)](https://packagist.org/packages/pjpawel/magis-bundle)
 
 ## Why Magis?
 ### - It's incredible fast!
