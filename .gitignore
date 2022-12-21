@@ -1,3 +1,11 @@
 vendor/
 .idea/
 var/
+.phpunit.cache
+
+# Docs (python)
+env/
+docs/_build/
+.pybuilder/
+target/
+docs/
