@@ -3,6 +3,8 @@
 ### *Symfony bundle for php templates rendering*
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/pjpawel/magis-bundle.svg?style=flat-square)](https://packagist.org/packages/pjpawel/magis-bundle)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pjpawel/MagisBundle/badges/quality-score.png?b=dev)](https://scrutinizer-ci.com/g/pjpawel/MagisBundle/?branch=dev)
+[![Code Coverage](https://scrutinizer-ci.com/g/pjpawel/MagisBundle/badges/coverage.png?b=dev)](https://scrutinizer-ci.com/g/pjpawel/MagisBundle/?branch=dev)
 
 ## Why Magis?
 ### - It's incredible fast!
