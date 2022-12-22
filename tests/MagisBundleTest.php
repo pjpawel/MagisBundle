@@ -11,7 +11,7 @@ use Symfony\Component\HttpKernel\Kernel;
 class MagisBundleTest extends TestCase
 {
 
-    public function testServiceWiring()
+    public function testServiceWiring(): void
     {
 
         $kernel = new MagisKernel('test', true);
@@ -34,7 +34,7 @@ class MagisKernel extends Kernel
         ];
     }
 
-    public function registerContainerConfiguration(LoaderInterface $loader)
+    public function registerContainerConfiguration(LoaderInterface $loader): void
     {
         $loader->load(realpath(__DIR__ . '/../recipes/config/packages/magis.yaml'));
     }

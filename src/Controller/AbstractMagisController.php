@@ -12,9 +12,19 @@ use Symfony\Component\HttpFoundation\Response;
 class AbstractMagisController extends AbstractController
 {
 
+    /**
+     * @param string $view
+     * @param array<string,mixed> $parameters
+     * @param Response|null $response
+     * @return Response
+     * @throws \Psr\Container\ContainerExceptionInterface
+     * @throws \Psr\Container\NotFoundExceptionInterface
+     */
     protected function renderPhpView(string $view, array $parameters = [], Response $response = null): Response
     {
-        $content = $this->container->get('magis')->render($view, $parameters);
+        /** @var ViewDispatcherService $magis */
+        $magis = $this->container->get('magis');
+        $content = $magis->render($view, $parameters);
 
         if (null === $response) {
             $response = new Response();
