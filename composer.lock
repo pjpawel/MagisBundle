@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb84f7424e0e29e65b476e85142a6810",
+    "content-hash": "18dd82634b62d9ff5622bda2cb7dcf88",
     "packages": [
         {
             "name": "pjpawel/magis",

@@ -16,7 +16,7 @@
   "require": {
     "php": ">=8.1",
     "symfony/framework-bundle": "^6.1",
-    "pjpawel/magis": "*",
+    "pjpawel/magis": "0.*",
     "symfony/yaml": "^6.1",
     "symfony/twig-bridge": "^6.1"
   },
