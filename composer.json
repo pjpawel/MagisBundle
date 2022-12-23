@@ -36,7 +36,8 @@
   "scripts": {
     "unit": "vendor/bin/phpunit --testsuite default",
     "stan": "vendor/bin/phpstan analyse",
-    "coverage": "php -d xdebug.mode=coverage vendor\\bin\\phpunit --coverage-clover coverage.xml .",
+    "cover": "vendor\\bin\\phpunit --coverage-clover coverage.xml --testsuite default",
+    "cover-html": "vendor\\bin\\phpunit --coverage-html coverage --testsuite default",
     "all": [
       "@unit",
       "@stan"

@@ -7,9 +7,15 @@ use pjpawel\Magis\MagisBundle\DependencyInjection\MagisExtension;
 use pjpawel\Magis\ViewDispatcherService;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
+/**
+ * @covers \pjpawel\Magis\MagisBundle\DependencyInjection\MagisExtension
+ */
 class MagisExtensionTest extends TestCase
 {
 
+    /**
+     * @covers \pjpawel\Magis\MagisBundle\DependencyInjection\MagisExtension::load
+     */
     public function testDependencyInjection(): void
     {
         $config = [

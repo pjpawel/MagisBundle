@@ -6,6 +6,11 @@ use pjpawel\Magis\Helper\AppContainerInterface;
 use pjpawel\Magis\Exception\TemplateException;
 use Symfony\Bridge\Twig\AppVariable;
 
+/**
+ * @codeCoverageIgnore
+ *
+ * @author Paweł Podgórski <pawel.jan.podgorski@gmail.com>
+ */
 class App implements AppContainerInterface
 {
 

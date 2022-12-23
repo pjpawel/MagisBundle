@@ -1,7 +1,8 @@
 vendor/
 .idea/
 var/
-.phpunit.cache
+.phpunit.cache/
+coverage/
 
 # Docs (python)
 env/

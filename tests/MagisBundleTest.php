@@ -8,6 +8,9 @@ use pjpawel\Magis\ViewDispatcherService;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Kernel;
 
+/**
+ * @covers \pjpawel\Magis\MagisBundle\MagisBundle
+ */
 class MagisBundleTest extends TestCase
 {
 
@@ -24,6 +27,9 @@ class MagisBundleTest extends TestCase
     }
 }
 
+/**
+ * @codeCoverageIgnore
+ */
 class MagisKernel extends Kernel
 {
 

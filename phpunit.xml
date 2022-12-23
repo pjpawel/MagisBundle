@@ -17,4 +17,15 @@
             <directory>tests</directory>
         </testsuite>
     </testsuites>
+
+    <coverage cacheDirectory=".phpunit.cache/code-coverage" processUncoveredFiles="true">
+        <include>
+            <file>src/DependencyInjection/MagisExtension.php</file>
+            <file>src/MagisBundle.php</file>
+        </include>
+    </coverage>
+
+    <php>
+        <ini name="xdebug.mode" value="coverage"/>
+    </php>
 </phpunit>

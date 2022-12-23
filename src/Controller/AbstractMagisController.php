@@ -7,6 +7,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
+ * @codeCoverageIgnore
+ *
  * @author Paweł Podgórski <pawel.jan.podgorski@gmail.com>
  */
 class AbstractMagisController extends AbstractController
